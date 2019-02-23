@@ -1,0 +1,25 @@
+{
+    "name": "ulv/websocket",
+    "description": "Websockets",
+    "require": {
+        "cboden/ratchet": "^0.4",
+        "Ulv/simplest-queue":"v0.0.2",
+        "monolog/monolog": "^1.24"
+    },
+    "repositories": [{
+        "type":"vcs",
+        "url":"https://github.com/Ulv/simplest-queue.git"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ulv\\WS\\":"src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Chmil",
+            "email": "vladimir.chmil@gmail.com"
+        }
+    ]
+}
